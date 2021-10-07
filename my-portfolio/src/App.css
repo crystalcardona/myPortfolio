@@ -1,21 +1,17 @@
+/* #9D858D
+#BBA0B2
+#A4A8D1
+#A4BFEB
+#8CABBE */
+
+
 .App {
-  text-align: center;
+  background-color: #A4A8D1; 
+  height: 100vh;
+  width: 100vw;
 }
 
-
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-
+/* 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -23,4 +19,6 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+
+
