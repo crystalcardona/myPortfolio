@@ -1,39 +1,28 @@
 
 
-.javascript:hover{
+.javascript:hover, .htmlImg:hover, .cssImg:hover, .reactImg:hover, .nodeImg:hover, .expressImg:hover, .postGresImg:hover, .gitImg:hover, .bootstrapImg:hover, .firebaseImg:hover, .netlifyImg:hover, .herokuImg:hover{
     border-radius: 10px;
     box-shadow: 5px 5px 20px #A4BFEB; 
 }
 
 .netlifyImg{
     height: 75px;
+    
 }
 
 .nodeImg{
-    height: 89px;
+    height: 75px;
 }
 
 .expressImg{
     height: 75px;
+    margin-right: 12px;
+    margin-left: 12px;
 }
 
-.postGresImg{
-    /* margin-left: 7px;
-    margin-top: 3px; */
-}
+
 
 .frontendImg, .backendImg, .toolsImg{
-    /* float: left;
-    width: 30%; */
-    /* color: white;
-    padding: 10px;
-    height: 250px;
-    text-align: center;
-    margin-top: 100px; */
-    /* background-color: #BBA0B2;
-    border-radius: 10px;
-    height: 400px;
-    text-align: center; */
     flex: 33%;
     height: 300px;
     padding: 10px;
@@ -49,27 +38,9 @@
     justify-content: center;
 }
 
-@media (max-width: 768px) { /*breakpoint*/
+@media (max-width: 768px) { 
     .icons {
       flex-direction: column;
     }
   }
-
-/* .backendImg{
-    display: center; 
-    width: 30%;
-    border-radius: 10px;
-    background-color: #BBA0B2;
-    height: 400px;
-    text-align: center;
-}
-
-.toolsImg{
-    float: right;
-    width: 30%;
-    border-radius: 10px;
-    background-color: #BBA0B2;
-    height: 400px;
-    text-align: center;
-} */
 

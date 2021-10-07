@@ -31,7 +31,7 @@ const Skills = () => {
             <img src={js1} alt="" className="javascript" />
             <img src={html1} alt="" className="htmlImg" />
             <img src={reactImg1} alt="" className="reactImg" />
-            <img src={cssImg1} alt="" className="reactImg" />
+            <img src={cssImg1} alt="" className="cssImg" />
             </div>
             <div className="backendImg">
             <h3>Backend</h3>
