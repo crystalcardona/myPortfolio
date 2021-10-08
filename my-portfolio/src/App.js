@@ -8,6 +8,7 @@ import NavBar from './components/NavBar'
 function App() {
   return (
     <div className="App">
+    <div className="body">
       <div className="header">
       <NavBar/>
       </div>
@@ -15,6 +16,7 @@ function App() {
         <Route exact path={"/"} component={MainPage} />
         <Route exact path={"/skills"} component={Skills} />
       </Switch>
+    </div>
     </div>
   );
 }

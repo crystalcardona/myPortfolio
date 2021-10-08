@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
 
 .javascript:hover, .htmlImg:hover, .cssImg:hover, .reactImg:hover, .nodeImg:hover, .expressImg:hover, .postGresImg:hover, .gitImg:hover, .bootstrapImg:hover, .firebaseImg:hover, .netlifyImg:hover, .herokuImg:hover{
     border-radius: 10px;
@@ -43,4 +43,10 @@
       flex-direction: column;
     }
   }
+
+  h3, h1 {
+    font-family: 'Fira Code', monospace;
+  }
+
+
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+
 nav{
     display: flex;
     justify-content: space-evenly;
@@ -9,4 +11,5 @@ nav{
     padding: 20px;
     color: black;
     font-weight: bolder;
+    font-family: 'Fira Code', monospace;
 }
