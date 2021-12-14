@@ -14,6 +14,7 @@ import firebaseImg from  '../Images/firebase.png'
 import netlifyImg1 from '../Images/netlify2.png'
 import herokuImg from '../Images/heroku2.png'
 
+
 import '../css/Skills.css'
 
 const Skills = () => {
@@ -27,25 +28,31 @@ const Skills = () => {
             </div>
             <div className="icons">
             <div className="frontendImg">
-            <h3>Frontend</h3>
+            <div className="frontend"> <h3>Frontend</h3></div>
+            <div className="row1">
             <img src={js1} alt="" className="javascript" />
             <img src={html1} alt="" className="htmlImg" />
             <img src={reactImg1} alt="" className="reactImg" />
             <img src={cssImg1} alt="" className="cssImg" />
             </div>
+            </div>
             <div className="backendImg">
-            <h3>Backend</h3>
+            <div className="backend"><h3>Backend</h3></div>
+            <div className="row2">
             <img src={nodeImg} alt="" className="nodeImg" />
             <img src={expressImg} alt="" className="expressImg" />
             <img src={postgresImg} alt="" className="postGresImg" />
             </div>
+            </div>
             <div className="toolsImg">
-            <h3>Dev Tools</h3>
+            <div className="devTools"><h3>Dev Tools</h3><br></br></div>
+            <div className="row3">
             <img src={gitImg1} alt="" className="gitImg" />
             <img src={bootstrapImg} alt="" className="bootstrapImg" />
             <img src={firebaseImg} alt="" className="firebaseImg" />
             <img src={netlifyImg1} alt="" className="netlifyImg" />
             <img src={herokuImg} alt="" className="herokuImg" />
+            </div>
             </div>
             </div>
         </div>

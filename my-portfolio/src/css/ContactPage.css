@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+
+.cont{
+
+    width: 65%;
+
+}
+
+.contactme{
+
+    background-color: #BBA0B2;
+    display: grid;
+    align-items: center;
+margin: auto;
+height: 50vh;
+width: 65%;
+border-radius: 5px;
+padding: 40px;
+
+}
+
+input {
+    height: 3vh;
+    margin-right:10px;
+    border-radius: 5px;
+    font-family: 'Fira Code', monospace;
+
+}
+
+.subject{
+    width: 14vw;
+}
+.messageInp{
+    margin-top: 20px;
+}
+.message{
+    display: grid;
+    width: 38.4vw;
+    border-radius: 5px;
+    text-align: top;
+}
+
+button {
+    padding: 12px;
+    margin-top: 50px;
+    font-family: 'Fira Code', monospace;
+    border-radius: 5px;
+}

@@ -1,9 +1,32 @@
-.afrolinkImg{
-    height: 45vh;
-    width:75vh;
-    border-radius: 5px;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+
+.afrolinkImg, .bytesImg, .calcImg{
+    height: 25vh;
+    width:45vh;
+    border-radius: 10px;
 }
 
-.afrolinkSec{
-
+.afrolinkSec, .bytesSec, .calcSec, .flashSec{
+    width: 100vw;
+    background-color: #BBA0B2;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 80%;
+    
 }
+
+
+h1, h2 {
+    font-family: 'Fira Code', monospace;
+}
+
+.projContainer{
+    display: grid;
+    justify-content: center;
+}
+
+@media (max-width: 768px) { 
+    .projContainer {
+      flex-direction: row;
+    }
+  }

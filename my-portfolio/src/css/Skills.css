@@ -24,17 +24,19 @@
 
 .frontendImg, .backendImg, .toolsImg{
     flex: 33%;
-    height: 300px;
-    padding: 10px;
-    margin: 25px;
+    height: 200px;
+    width: 100vw;
+    margin: 10px;
     background-color: #BBA0B2;
     text-align: center;
     border-radius: 10px;
+    opacity: 80%;
+
 
 }
 
 .icons{
-    display:flex;
+    display:grid;
     justify-content: center;
 }
 
@@ -47,6 +49,11 @@
   h3, h1 {
     font-family: 'Fira Code', monospace;
   }
+
+.row1, .row2, .row3{
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
