@@ -1,6 +1,8 @@
 import React, {useState, useEffect } from 'react';
 import emailjs from "emailjs-com"
 import '../css/ContactPage.css'
+import gitImg from '../Images/github.png'
+import linkedinImg from '../Images/linkedin.png'
 
 
 const ContactPage = ()=> {
@@ -8,18 +10,6 @@ const ContactPage = ()=> {
     const [email, setEmail] = useState('');
     const [subject, setSubject] =useState('')
     const [message, setMessage] = useState('');
-
-
-    // const submitContact = (e) => {
-    //     setEmail(email);
-    //     setMessge(message);
-    // }
-
-    // const handleSubmit = (e) =>{
-    //     debugger
-    //     e.preventDefault()
-    //     submitContact(email, message)
-    // }
 
     const sendEmail = (e) =>{
         debugger
@@ -54,6 +44,12 @@ const ContactPage = ()=> {
             </div>
             <button> Send </button>
             </form>
+        </div>
+        </div>
+        <div className="findme">
+        <div className="contactlinks">
+        <a href="https://github.com/crystalcardona" ><img src={gitImg} className="contactImgs" /></a>
+        <a href="www.linkedin.com/in/crystalcardona"><img src={linkedinImg} className="contactImgs"/></a>
         </div>
         </div>
         </div>
