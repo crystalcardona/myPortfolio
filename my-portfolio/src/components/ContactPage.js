@@ -35,14 +35,14 @@ const ContactPage = ()=> {
         <div>
             <form onSubmit={sendEmail}>
             <div className="contactInp">
-            <input value={name} type="text" name="name" placeholder="name" onChange={(e)=>setName(e.currentTarget.value)} />
-            <input value={email} type="text" name="email" placeholder="email" onChange={(e)=>setEmail(e.currentTarget.value)} />
-            <input className="subject" value={subject} type="text" name="subject" placeholder="subject" onChange={(e)=>setSubject(e.currentTarget.value)} />
+            <input value={name} type="text" name="name" placeholder="name" onChange={(e)=>setName(e.currentTarget.value)} required/>
+            <input value={email} type="text" name="email" placeholder="email" onChange={(e)=>setEmail(e.currentTarget.value)} required/>
+            <input className="subject" value={subject} type="text" name="subject" placeholder="subject" onChange={(e)=>setSubject(e.currentTarget.value)} required/>
             </div>
             <div className="messageInp">
-            <textarea className="message" value={message} rows="7" cols="200" type="text" name="message" placeholder="message" onChange={(e)=>setMessage(e.currentTarget.value)}/>
+            <textarea className="message" value={message} rows="7" cols="200" type="text" name="message" placeholder="message" onChange={(e)=>setMessage(e.currentTarget.value)} required/>
             </div>
-            <button> Send </button>
+            <button> Send Email </button>
             </form>
         </div>
         </div>
