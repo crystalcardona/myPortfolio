@@ -6,8 +6,8 @@ const NavBar = () => {
     return(
         <nav>
             <NavLink className="links" exact to={"/"}>About Me</NavLink>
-            <NavLink className="links" to={"/skills"}>Skills</NavLink>
-            <NavLink className="links" to={"/projects"}>Projects</NavLink>
+            <NavLink className="links" to={"/skill"}>Skills</NavLink>
+            <NavLink className="links" to={"/project"}>Projects</NavLink>
             <NavLink className="links" to={"/contact"}>Contact</NavLink>
         </nav>
     )
